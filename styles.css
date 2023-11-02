@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.grid{
+	width:230px;
+	height:100px;
+	background-color:#f2f2f2;
+	border: 1px solid #ccc;
+	margin:5px;
+	display:flex;
+	justify-content:center;
+}
+#container{
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+}
